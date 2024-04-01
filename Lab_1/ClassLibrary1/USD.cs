@@ -1,6 +1,4 @@
-﻿using System.Diagnostics.CodeAnalysis;
-
-namespace ClassLibrary
+﻿namespace ClassLibrary
 {
     public class USD
     {
