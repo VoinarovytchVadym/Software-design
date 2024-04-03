@@ -4,16 +4,6 @@
     public class MoneyPart
     {
         private int amount;
-
-        public MoneyPart(int amount)
-        {
-            if (amount < 0)
-            {
-                throw new ArgumentException("Значення не можу бути від'ємним");
-            }
-            this.amount = amount;
-        }
-
         public int Amount 
         { 
             get 
@@ -29,5 +19,15 @@
                 amount = value;
             }
         }
+
+        public MoneyPart(int amount)
+        {
+            if (amount < 0)
+            {
+                throw new ArgumentException("Значення не можу бути від'ємним");
+            }
+            this.amount = amount;
+        }
+
     }
 }

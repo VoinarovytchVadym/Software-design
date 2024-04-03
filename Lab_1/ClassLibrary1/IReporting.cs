@@ -44,9 +44,9 @@
             }
         }
 
-        public RevenueInvoice(Warehouse[] warehouses)
+        public RevenueInvoice(Warehouse[] products)
         {
-            Products = warehouses;
+            Products = products;
         }
     }
 
@@ -75,7 +75,7 @@
         }
 
         private string costumer;
-        public string Costumer
+        public string Consumer
         {
             get { return costumer; }
             set
@@ -96,12 +96,13 @@
             }
         }
 
+
         public void Print()
         {
             Console.Clear();
             Console.WriteLine($"Постачальник: {Post}");
 
-            Console.WriteLine($"Покупець: {Costumer}");
+            Console.WriteLine($"Покупець: {Consumer}");
 
             Console.WriteLine($"Договір: {Contract}");
 
@@ -132,11 +133,11 @@
             Console.ForegroundColor = ConsoleColor.White;
         }
 
-        public SalesInvoice(Warehouse[] warehouse, string post, string costumer, string contract)
+        public SalesInvoice(Warehouse[] products, string post, string consumer, string contract)
         {
-            Products = warehouse;
+            Products = products;
             Post = post;
-            Costumer = costumer;
+            Consumer = consumer;
             Contract = contract;
         }
     }
@@ -174,9 +175,9 @@
             }
         }
 
-        public InventoryReport(Warehouse[] warehouses)
+        public InventoryReport(Warehouse[] products)
         {
-            Products = warehouses;
+            Products = products;
         }
     }
 

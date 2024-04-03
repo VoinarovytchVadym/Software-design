@@ -3,14 +3,13 @@
     public class Warehouse
     {
         private Product product;
-        private double quantity;
-        private string unit;
-        private DateTime deliveryDate;
         public Product Product
         {
             get { return product; }
             set { product = value; }
         }
+
+        private double quantity;
         public double Quantity
         {
             get { return quantity; }
@@ -20,6 +19,7 @@
                 quantity = value;
             }
         }
+        private string unit;
         public string Unit
         {
             get { return unit; }
@@ -29,6 +29,7 @@
                 unit = value;
             }
         }
+        private DateTime deliveryDate;
         public DateTime DeliveryDate
         {
             get { return deliveryDate; }
