@@ -9,6 +9,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\..\Lab_3\Observer\Observer.csproj" />
+      <ProjectReference Include="..\..\Lab_3\Observer\Observer.csproj" />
     </ItemGroup>
 
 </Project>

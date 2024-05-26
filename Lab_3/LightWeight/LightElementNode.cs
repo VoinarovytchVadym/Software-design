@@ -1,8 +1,6 @@
-﻿using Composer;
-using Composer.Nodes;
+﻿using Composer.Nodes;
 
 namespace LightWeight;
-
 public class LightElementNode : Composer.Nodes.LightElementNode
 {
     private static readonly Dictionary<string, LightElementNode> FlyweightPool = new Dictionary<string, LightElementNode>();

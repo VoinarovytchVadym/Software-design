@@ -1,5 +1,4 @@
-﻿
-using Composer.Nodes;
+﻿using Composer.Nodes;
 
 namespace Composer;
 

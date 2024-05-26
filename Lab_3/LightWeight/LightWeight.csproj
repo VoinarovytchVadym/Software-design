@@ -9,6 +9,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Composer\Composer.csproj" />
+      <ProjectReference Include="..\Composer\Composer.csproj" />
     </ItemGroup>
 
 </Project>
